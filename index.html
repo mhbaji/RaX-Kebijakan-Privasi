@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi RaX Camera</title>
+  <!-- Same content as kebijakan-privasi.md; update both together. -->
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #1a1a1a; }
+    h1 { color: #1565C0; margin-bottom: 4px; }
+    h2 { color: #1565C0; margin-top: 32px; border-bottom: 1px solid #e0e0e0; padding-bottom: 4px; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+    th, td { border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left; }
+    th { background: #f0f4fa; }
+    code { background: #f2f2f2; padding: 1px 4px; border-radius: 4px; }
+    .date { color: #666; }
+  </style>
+</head>
+<body>
+<h1>Kebijakan Privasi RaX Camera</h1>
+<p class="date">Berlaku sejak: 27 November 2026</p>
+
+<p>RaX Camera ("RaX", "aplikasi") adalah aplikasi kamera Android yang bisa dikontrol dari browser di komputer dalam satu jaringan lokal (Wi-Fi). Aplikasi ini dibuat oleh Robotik Indonesia. Kebijakan ini menjelaskan data apa yang dipakai aplikasi, untuk apa, dan ke mana data itu pergi.</p>
+
+<h2>Ringkasan</h2>
+<ul>
+  <li>RaX <strong>tidak mengirim foto, video, suara, atau data pribadi Anda ke server kami atau ke internet.</strong></li>
+  <li>RaX <strong>tidak memakai akun atau analitik.</strong> RaX <strong>menampilkan iklan</strong> dari Google AdMob; layanan iklan ini mengumpulkan sebagian data perangkat (lihat "Iklan").</li>
+  <li>Semua foto dan video tersimpan <strong>di HP Anda sendiri</strong>.</li>
+  <li>Lokasi hanya ditulis ke dalam foto dan video bila Anda menyalakan <strong>Geotag</strong> sendiri. Lokasi tidak pernah dikirim ke kami. Bila Anda juga menyalakan <strong>Cetak alamat di foto</strong>, koordinat dikirim ke layanan alamat bawaan HP untuk mencari nama jalan dan wilayah (lihat "Layanan pihak ketiga").</li>
+  <li>Data hanya berpindah di <strong>jaringan lokal Anda</strong>, ke komputer yang Anda izinkan sendiri.</li>
+</ul>
+
+<h2>Izin yang diminta dan kegunaannya</h2>
+<table>
+  <tr><th>Izin</th><th>Kegunaan</th></tr>
+  <tr><td>Kamera</td><td>Mengambil foto, merekam video, dan menampilkan pratinjau kamera</td></tr>
+  <tr><td>Mikrofon</td><td>Merekam suara untuk video dan mengirim suara pratinjau ke komputer yang terhubung</td></tr>
+  <tr><td>Perangkat Bluetooth sekitar</td><td>Memakai mikrofon Bluetooth (misalnya earphone nirkabel) sebagai sumber suara. RaX tidak memindai atau melacak perangkat Bluetooth lain</td></tr>
+  <tr><td>Internet, status jaringan, multicast Wi-Fi</td><td>Menjalankan server kecil di HP agar browser di komputer dalam jaringan yang sama bisa membuka panel kontrol, dan agar HP bisa ditemukan dengan nama <code>rax-xxxx.local</code></td></tr>
+  <tr><td>Pengaturan audio</td><td>Memilih mikrofon yang dipakai (bawaan, kabel, USB, atau Bluetooth)</td></tr>
+  <tr><td>Lokasi (perkiraan dan akurat)</td><td>Menulis lokasi ke foto dan video (geotag), <strong>hanya bila switch Geotag di Pengaturan menyala</strong>. Izin ini diminta saat pertama kali membuka RaX dan boleh ditolak; RaX tetap berfungsi tanpa geotag. Lokasi dibaca hanya selama RaX terbuka di layar dan Geotag menyala</td></tr>
+  <tr><td>Akses lokasi media</td><td>Menjaga data lokasi di dalam foto tetap utuh saat Anda mengunduh salinannya ke komputer. Tanpa izin ini, Android menghapus lokasi dari salinan</td></tr>
+</table>
+<p>RaX tidak meminta izin kontak atau berkas di luar album RaX.</p>
+
+<h2>Data yang disimpan di HP</h2>
+<ul>
+  <li><strong>Foto dan video</strong> hasil RaX disimpan di galeri HP, album <code>DCIM/RaX</code>. Anda bisa melihat, membagikan, atau menghapusnya kapan saja lewat aplikasi galeri.</li>
+  <li><strong>Metadata di dalam file</strong>: waktu pengambilan dengan zona waktu, merek dan model HP, nama HP yang Anda tentukan, nama aplikasi, dan data kamera (misalnya exposure dan ISO). Bila <strong>Geotag</strong> menyala, file juga berisi <strong>lokasi</strong> tempat foto atau video diambil. Metadata ini ikut terbawa bila file Anda bagikan atau unggah ke tempat lain; matikan Geotag bila Anda tidak ingin lokasi ikut tersimpan.</li>
+  <li><strong>Indeks kecil</strong> berisi daftar file hasil RaX, agar komputer hanya melihat file buatan RaX dan tidak bisa melihat foto lain di HP.</li>
+  <li><strong>Pengaturan aplikasi</strong>, misalnya nama HP yang Anda tentukan dan pilihan kamera.</li>
+  <li><strong>Data pemasangan (pairing)</strong>: kode pengenal HP dan token akses untuk komputer yang pernah Anda izinkan. Data ini tidak ikut dicadangkan ke akun Google dan tidak dipindah ke HP lain.</li>
+</ul>
+<p>Semua data di atas tetap di HP dan terhapus bila aplikasi dicopot, kecuali foto dan video di galeri yang tetap menjadi milik Anda.</p>
+
+<h2>Data yang dikirim ke komputer di jaringan lokal</h2>
+<p>Saat Anda menyalakan <strong>Kontrol dari PC</strong>, komputer yang <strong>Anda izinkan</strong> (lewat pemasangan di HP atau dengan memindai QR) bisa:</p>
+<ul>
+  <li>melihat pratinjau kamera bersuara beresolusi rendah,</li>
+  <li>mengontrol kamera (foto, rekam, pengaturan),</li>
+  <li>melihat status HP seperti persentase baterai,</li>
+  <li>melihat dan <strong>mengunduh salinan</strong> foto dan video hasil RaX.</li>
+</ul>
+<p>Data ini dikirim langsung dari HP ke komputer di jaringan yang sama, tanpa melewati server kami. Mengunduh hanya membuat salinan; file di HP tidak dipindah atau dihapus. Server di HP hanya berjalan selama RaX terbuka di layar dan <strong>Kontrol dari PC</strong> menyala. Akses bisa Anda hentikan dengan mematikan fitur ini, atau dicabut dengan tombol <strong>Putuskan semua PC</strong> di aplikasi.</p>
+<p>Koneksi di jaringan lokal memakai HTTP biasa (tanpa enkripsi). Gunakan RaX di jaringan Wi-Fi yang Anda percaya, bukan Wi-Fi umum.</p>
+
+<h2>Layanan pihak ketiga</h2>
+<p>Bila <strong>Cetak alamat di foto</strong> menyala, RaX memakai <strong>layanan alamat bawaan Android (Geocoder)</strong> untuk mengubah koordinat menjadi nama jalan, kelurahan/desa, kecamatan, kota/kabupaten, dan provinsi. Di sebagian besar HP layanan ini disediakan Google, sehingga <strong>koordinat tempat foto diambil dikirim ke Google</strong> saat alamat dicari (butuh internet). RaX tidak mengirim foto, nama HP, atau data lain ke layanan ini. Kebijakan Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. Bila fitur ini mati, tidak ada koordinat yang dikirim ke mana pun.</p>
+<p>Untuk memindai QR sesi komputer, RaX memakai <strong>pemindai kode dari Google Play Services (Google ML Kit)</strong>. Pemindaian berlangsung di HP. Google dapat mengumpulkan data diagnostik dan penggunaan yang terbatas sesuai kebijakan Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> dan <a href="https://developers.google.com/ml-kit/terms">https://developers.google.com/ml-kit/terms</a>. RaX tidak menerima gambar dari pemindai ini, hanya isi QR yang dipindai.</p>
+
+<h2>Iklan</h2>
+<p>RaX gratis dan dibiayai iklan dari <strong>Google AdMob</strong>:</p>
+<ul>
+  <li>banner kecil di bagian atas layar kamera,</li>
+  <li>banner kecil di bagian bawah Pengaturan,</li>
+  <li>iklan layar penuh yang kadang muncul <strong>sebelum</strong> Anda menghubungkan HP ke komputer (paling sering sekali dalam 10 menit, tidak pernah saat merekam).</li>
+</ul>
+<p>Untuk menampilkan dan mengukur iklan, Google dapat mengumpulkan dan memakai data seperti <strong>ID iklan perangkat</strong>, alamat IP, jenis dan pengaturan perangkat, serta interaksi dengan iklan, sesuai kebijakan Google: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> dan <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>. RaX tidak memberikan foto, video, suara, lokasi, atau nama HP Anda kepada layanan iklan.</p>
+<p>Bila hukum di wilayah Anda mewajibkannya (misalnya di Eropa), RaX menampilkan formulir persetujuan dari Google sebelum iklan dimuat, dan pilihan itu bisa diubah lewat <strong>Pengaturan &gt; Info &gt; Pengaturan privasi iklan</strong>. Anda juga bisa menghapus atau mengganti ID iklan di Setelan HP &gt; Google &gt; Iklan (nama menu bisa berbeda tiap merek HP).</p>
+
+<h2>Anak-anak</h2>
+<p>RaX tidak ditujukan khusus untuk anak-anak dan tidak dengan sengaja mengumpulkan data pribadi dari siapa pun.</p>
+
+<h2>Keamanan</h2>
+<p>Komputer harus diizinkan dulu di HP sebelum bisa mengontrol kamera atau mengunduh file. Meski begitu, tidak ada sistem yang sepenuhnya aman, terutama di jaringan tanpa enkripsi. Karena itu, pakailah jaringan pribadi dan putuskan komputer yang tidak lagi dipakai.</p>
+
+<h2>Perubahan kebijakan</h2>
+<p>Kebijakan ini bisa diperbarui bila fitur aplikasi berubah. Versi terbaru selalu tersedia di halaman ini, dengan tanggal berlaku di bagian atas.</p>
+
+<h2>Kontak</h2>
+<p>Pertanyaan tentang privasi bisa dikirim ke: <a href="mailto:projectsrobotikid@gmail.com">projectsrobotikid@gmail.com</a></p>
+</body>
+</html>
