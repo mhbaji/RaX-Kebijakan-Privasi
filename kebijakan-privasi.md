@@ -1,8 +1,8 @@
-# Kebijakan Privasi RaX
+# Kebijakan Privasi RaX Camera
 
-Berlaku sejak: [TANGGAL TERBIT]
+Berlaku sejak: 27 November 2026
 
-RaX ("aplikasi") adalah aplikasi kamera Android yang bisa dikontrol dari browser di komputer dalam satu jaringan lokal (Wi-Fi). Aplikasi ini dibuat oleh [NAMA PENGEMBANG]. Kebijakan ini menjelaskan data apa yang dipakai aplikasi, untuk apa, dan ke mana data itu pergi.
+RaX Camera ("RaX", "aplikasi") adalah aplikasi kamera Android yang bisa dikontrol dari browser di komputer dalam satu jaringan lokal (Wi-Fi). Aplikasi ini dibuat oleh Robotik Indonesia. Kebijakan ini menjelaskan data apa yang dipakai aplikasi, untuk apa, dan ke mana data itu pergi.
 
 ## Ringkasan
 
@@ -81,4 +81,4 @@ Kebijakan ini bisa diperbarui bila fitur aplikasi berubah. Versi terbaru selalu 
 
 ## Kontak
 
-Pertanyaan tentang privasi bisa dikirim ke: [ALAMAT EMAIL KONTAK]
+Pertanyaan tentang privasi bisa dikirim ke: projectsrobotikid@gmail.com
